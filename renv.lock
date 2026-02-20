@@ -374,10 +374,10 @@
       "Package": "beaverApp",
       "Version": "3.0",
       "Source": "GitHub",
-      "Title": "a beaver population growth simulation app",
+      "Title": "beaverApp — a simulation platform for beaver population and landscape scenarios",
       "Authors@R": "person(\"zelda\", \"van der Waal\", ,\"zeldavdwaal@gmail.com\", role = c(\"cre\", \"aut\", \"cph\"))",
-      "Description": "The app integrates academic research outputs into an interactive interface that allows the user to simulate beaver population growth.  Users specify a range of parameters to create scenarios representative of a conservation management action, landscape and objectives.  The generated simulation runs provide an array of potential outcomes aiming to provide useful insights to support decision-making for the management of beaver populations in Scotland, Wales and England (the package uses a reduced spatial extent as a demo).",
-      "License": "GPL (>= 3)",
+      "Description": "The app integrates academic research outputs into an interactive interface that allows the user to simulate beaver population growth according to a variety of realistic management scenarios based on a validated spatially-explicit, individual-based computer model.  Users specify a range of parameters to create scenarios representative of a conservation management action, landscape and objectives.  The generated simulation runs provide an array of potential outcomes aiming to provide useful insights to support decision-making for the management of beaver populations in Scotland, Wales and England (the package uses a reduced spatial extent as a demo).",
+      "License": "AGPL (>= 3)",
       "Depends": [
         "R (>= 4.4)",
         "leaflet",
@@ -438,7 +438,7 @@
       "RemoteRepo": "beaverApp",
       "RemoteUsername": "zeldavanderwaal",
       "RemoteRef": "main",
-      "RemoteSha": "d120348cfce6b185d3577deeea07d465d29ca2b9",
+      "RemoteSha": "7c9f328c62e3f9320a3206117817f70ad416014d",
       "NeedsCompilation": "no",
       "Author": "zelda van der Waal [cre, aut, cph]",
       "Maintainer": "zelda van der Waal <zeldavdwaal@gmail.com>"
@@ -1669,7 +1669,7 @@
     },
     "gridtext": {
       "Package": "gridtext",
-      "Version": "0.1.5",
+      "Version": "0.1.6",
       "Source": "Repository",
       "Type": "Package",
       "Title": "Improved Text Rendering Support for 'Grid' Graphics",
@@ -1705,9 +1705,8 @@
       ],
       "Encoding": "UTF-8",
       "RoxygenNote": "7.1.1",
-      "SystemRequirements": "C++11",
       "NeedsCompilation": "yes",
-      "Author": "Claus O. Wilke [aut] (<https://orcid.org/0000-0002-7470-9261>), Brenton M. Wiernik [aut, cre] (<https://orcid.org/0000-0001-9560-6336>, @bmwiernik)",
+      "Author": "Claus O. Wilke [aut] (ORCID: <https://orcid.org/0000-0002-7470-9261>), Brenton M. Wiernik [aut, cre] (ORCID: <https://orcid.org/0000-0001-9560-6336>, Twitter: @bmwiernik)",
       "Maintainer": "Brenton M. Wiernik <brenton@wiernik.org>",
       "Repository": "CRAN"
     },
@@ -1900,19 +1899,19 @@
     },
     "httr": {
       "Package": "httr",
-      "Version": "1.4.7",
+      "Version": "1.4.8",
       "Source": "Repository",
       "Title": "Tools for Working with URLs and HTTP",
-      "Authors@R": "c( person(\"Hadley\", \"Wickham\", , \"hadley@posit.co\", role = c(\"aut\", \"cre\")), person(\"Posit, PBC\", role = c(\"cph\", \"fnd\")) )",
+      "Authors@R": "c( person(\"Hadley\", \"Wickham\", , \"hadley@posit.co\", role = c(\"aut\", \"cre\")), person(\"Posit Software, PBC\", role = c(\"cph\", \"fnd\")) )",
       "Description": "Useful tools for working with HTTP organised by HTTP verbs (GET(), POST(), etc). Configuration functions make it easy to control additional request components (authenticate(), add_headers() and so on).",
       "License": "MIT + file LICENSE",
       "URL": "https://httr.r-lib.org/, https://github.com/r-lib/httr",
       "BugReports": "https://github.com/r-lib/httr/issues",
       "Depends": [
-        "R (>= 3.5)"
+        "R (>= 3.6)"
       ],
       "Imports": [
-        "curl (>= 5.0.2)",
+        "curl (>= 5.1.0)",
         "jsonlite",
         "mime",
         "openssl (>= 0.8)",
@@ -1932,9 +1931,9 @@
       "VignetteBuilder": "knitr",
       "Config/Needs/website": "tidyverse/tidytemplate",
       "Encoding": "UTF-8",
-      "RoxygenNote": "7.2.3",
+      "RoxygenNote": "7.3.3",
       "NeedsCompilation": "no",
-      "Author": "Hadley Wickham [aut, cre], Posit, PBC [cph, fnd]",
+      "Author": "Hadley Wickham [aut, cre], Posit Software, PBC [cph, fnd]",
       "Maintainer": "Hadley Wickham <hadley@posit.co>",
       "Repository": "CRAN"
     },
@@ -2204,7 +2203,7 @@
     },
     "later": {
       "Package": "later",
-      "Version": "1.4.5",
+      "Version": "1.4.6",
       "Source": "Repository",
       "Type": "Package",
       "Title": "Utilities for Scheduling Functions to Execute Later with Event Loops",

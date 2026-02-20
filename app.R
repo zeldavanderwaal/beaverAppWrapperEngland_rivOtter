@@ -8,8 +8,10 @@ Sys.setenv(BEAVERAPP_DATA_PKG = "beaverAppDataEnglandRivOtter",
            BEAVERAPP_VERBOSE =FALSE,
            APP_REGION= "England",
            APP_REGIONSUBSET=  "rivOtter", 
-           BEAVERAPP_TTLESUFF= " ** case study: River Otter **",
-           BEAVERAPP_NREPS= 30)  
+           BEAVERAPP_TTLESUFF= "River Otter (case study)",
+           BEAVERAPP_NREPS3= 30L,
+           BEAVERAPP_NREPS4= 50L,
+           BEAVERAPP_NREPS5= 100L)  
 app_password <<- Sys.getenv("BEAVERAPP_PASSWORD") 
 
 options(shiny.maxRequestSize = 7200 * 1024^2)  # just in case, 7200MB uploads
